@@ -1,0 +1,11 @@
+
+.stripe {
+    padding: 20px;
+    background: #f7f7f7;
+}
+
+.required-field > label::after {
+  content: '*';
+  color: red;
+  margin-left: 0.25rem;
+}
